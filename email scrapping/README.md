@@ -35,7 +35,7 @@ Example using llama 3 70B, with our api token
 import requests
 
 API_URL = "https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-70B"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer token"}
 
 def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)
