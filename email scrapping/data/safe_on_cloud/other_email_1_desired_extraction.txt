@@ -1,0 +1,32 @@
+DATE: [date forwarded to the scrapper]
+
+TOPIC: The Middle East-related protest camp at UBC.
+
+TYPE: Issues Response
+
+UNIT: Safety and Risk Services [not sure how AI will know this, but could utilize existing data re: this sort of thing Or maybe we can have people type "UNIT - XXX" before emailing it to scraper? 
+
+DEPARTMENT: ""
+
+Lead/Expert: ""
+
+OUTLET: CTV News Vancouver
+
+JOURNALIST: Martin MacMahon
+
+CAMPAIGN: ""
+
+COMPLEXITY: 3 (always 3 for media releases and we can create consistency for other Types based on previous classifications) 
+
+DIVERSITY ""
+
+TEAM MEMBER: "Kurt Heinrich"  
+
+SERVICE LINKED TO: ""  
+
+KEY MESSAGING: ""  
+
+BACKGROUND RESPONSE: Just include the whole email 
+
+
+STORY LINK: ""

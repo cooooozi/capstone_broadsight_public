@@ -1,0 +1,29 @@
+DATE: [date forwarded to the scrapper]
+
+TOPIC: UBC will be increasing tuition for domestic and international students as of May
+
+TYPE: Issues Response
+
+UNIT:VP Finance, Provost  [not sure how AI will know this, but could utilize existing data re: this sort of thing Or maybe we can have people type "UNIT - XXX" before emailing it to scraper? 
+
+DEPARTMENT: ""
+
+Lead/Expert: "" [could be populated based on past enquiries around a similar topic
+
+OUTLET: The Canadian Press 
+
+JOURNALIST: nono shen (if not in system, would add contact info to Phone: 604-202-5319 and email nono.shen@thecanadianpress.com
+
+CAMPAIGN: ""
+
+COMPLEXITY: 3 (always 3 for media releases and we can create consistency for other Types based on previous classifications) 
+
+DIVERSITY ""
+
+TEAM MEMBER: "Kurt Heinrich"  
+
+SERVICE LINKED TO: ""
+
+KEY MESSAGING: "" 
+
+BACKGROUND RESPONSE: 

@@ -1,0 +1,2031 @@
+{
+  "types": [
+    {
+      "name": "Simple Statement",
+      "type": "Issue",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a83505"
+      },
+      "backgroundColor": "Red",
+      "proactivity": "Reactive",
+      "permissions": [
+        "Manager",
+        "Admin"
+      ]
+    },
+    {
+      "name": "Counsel/Consultation",
+      "type": "Issue",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a83506"
+      },
+      "backgroundColor": "Red",
+      "proactivity": "Reactive",
+      "permissions": [
+        "Manager",
+        "Admin"
+      ]
+    },
+    {
+      "name": "Communications Strategy - Reactive",
+      "type": "Issue",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a83507"
+      },
+      "backgroundColor": "Red",
+      "proactivity": "Reactive",
+      "permissions": [
+        "Manager",
+        "Admin"
+      ]
+    },
+    {
+      "name": "Information Circulation",
+      "type": "Issue",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a83508"
+      },
+      "backgroundColor": "Red",
+      "proactivity": "Reactive",
+      "permissions": [
+        "Manager",
+        "Admin"
+      ]
+    },
+    {
+      "name": "Issues Notification",
+      "type": "Issue",
+      "_id": {
+        "$oid": "63d8621d9fef76edfeaf06c9"
+      },
+      "backgroundColor": "Red",
+      "proactivity": "Reactive",
+      "permissions": [
+        "Manager",
+        "Admin"
+      ]
+    },
+    {
+      "name": "Editing/Writing Support",
+      "type": "Support",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a83509"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Connection/referral",
+      "type": "Support",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a8350b"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Communicator Coaching",
+      "type": "Support",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a8350c"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Media Training",
+      "type": "Support",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a8350d"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "News Assessment",
+      "type": "Support",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a8350e"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Promotional Advice",
+      "type": "Support",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a8350f"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Media Request",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a83510"
+      },
+      "backgroundColor": "None",
+      "proactivity": "Reactive"
+    },
+    {
+      "name": "Institutional Story",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a83511"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive",
+      "permissions": [
+        "User",
+        "Manager",
+        "Admin"
+      ]
+    },
+    {
+      "name": "Institutional Story for Issue",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a83512"
+      },
+      "backgroundColor": "Red",
+      "proactivity": "Proactive",
+      "permissions": [
+        "Manager",
+        "Admin"
+      ]
+    },
+    {
+      "name": "Issue Response",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a83513"
+      },
+      "backgroundColor": "Red",
+      "proactivity": "Reactive",
+      "permissions": [
+        "Manager",
+        "Admin"
+      ]
+    },
+    {
+      "name": "News Tip",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "6368b22e3b599bb7c5a83515"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Q&A",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "6368cb6a4ba389c4d71a0048"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Pitch",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "6368cb744ba389c4d71a0127"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Conversation",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "6368d336019b534ee8882709"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Brand Story/Advertising",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "6368d472019b534ee88848a5"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Media Advisory",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "636961b279a09368fa4a7773"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Expert Advisory",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "636961b279a09368fa4a7774"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Media Release",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "6369650d79a09368fa4a7820"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Social Support",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "637328d1fef8748c9fd5c2e6"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Web Post (only)",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "637328d2fef8748c9fd5c2e9"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Eurekalert",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "637328d2fef8748c9fd5c2ec"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Op-Ed",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "637328d5fef8748c9fd5c2f5"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Photo Request",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "63d8621d9fef76edfeaf06bd"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Reactive"
+    },
+    {
+      "name": "Correction",
+      "type": "Tactic",
+      "_id": {
+        "$oid": "63d8621d9fef76edfeaf06bf"
+      },
+      "backgroundColor": "Red",
+      "proactivity": "Reactive"
+    },
+    {
+      "name": "Communications Strategy - Proactive",
+      "type": "Support",
+      "_id": {
+        "$oid": "63d8621d9fef76edfeaf06c1"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Media Prep",
+      "type": "Support",
+      "_id": {
+        "$oid": "63d8621d9fef76edfeaf06c5"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "Event Support",
+      "type": "Support",
+      "_id": {
+        "$oid": "63d8621d9fef76edfeaf06c7"
+      },
+      "backgroundColor": "Green",
+      "proactivity": "Proactive"
+    },
+    {
+      "name": "GCPE Engagement",
+      "type": "Support",
+      "backgroundColor": "None",
+      "proactivity": "Proactive",
+      "archived": false,
+      "_id": {
+        "$oid": "64b1c1769330e7c376d252c2"
+      }
+    },
+    {
+      "name": "Social Media Listening",
+      "type": "Issue",
+      "backgroundColor": "None",
+      "proactivity": "Reactive",
+      "archived": false,
+      "_id": {
+        "$oid": "64cd3e9e637586d009462083"
+      },
+      "permissions": [
+        "User",
+        "Manager",
+        "Admin"
+      ]
+    },
+    {
+      "name": "Story Kill",
+      "type": "Issue",
+      "backgroundColor": "Red",
+      "proactivity": "Reactive",
+      "permissions": [
+        "Manager",
+        "Admin"
+      ],
+      "archived": false,
+      "_id": {
+        "$oid": "64d56359f83bfd36da2948e5"
+      }
+    },
+    {
+      "name": "Photography ",
+      "type": "Support",
+      "backgroundColor": "Green",
+      "proactivity": "Proactive",
+      "permissions": [
+        "User",
+        "Manager",
+        "Admin"
+      ],
+      "archived": false,
+      "_id": {
+        "$oid": "655650bbee89a9decd5d45a8"
+      }
+    },
+    {
+      "name": "Videography ",
+      "type": "Support",
+      "backgroundColor": "Green",
+      "proactivity": "Proactive",
+      "permissions": [
+        "User",
+        "Manager",
+        "Admin"
+      ],
+      "archived": false,
+      "_id": {
+        "$oid": "655650d7ee89a9decd5d4675"
+      }
+    },
+    {
+      "name": "Remarks and Speech Writing",
+      "type": "Support",
+      "backgroundColor": "Green",
+      "proactivity": "Proactive",
+      "permissions": [
+        "User",
+        "Manager",
+        "Admin"
+      ],
+      "archived": false,
+      "_id": {
+        "$oid": "65cbbef37ab45351adf4a38f"
+      }
+    },
+    {
+      "name": "Media Contact",
+      "type": "Support",
+      "backgroundColor": "Green",
+      "proactivity": "Proactive",
+      "permissions": [
+        "User",
+        "Manager",
+        "Admin"
+      ],
+      "archived": false,
+      "_id": {
+        "$oid": "65cbd76f7ab45351adf4e3df"
+      }
+    },
+    {
+      "name": "Coverage Report",
+      "type": "Support",
+      "backgroundColor": "None",
+      "proactivity": "Reactive",
+      "permissions": [
+        "User",
+        "Manager",
+        "Admin"
+      ],
+      "archived": false,
+      "_id": {
+        "$oid": "662bf1231ab3ac39704b66e2"
+      }
+    }
+  ],
+  "units": [
+    {
+      "name": "VP Human Resources",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c87d4ba389c4d719ee14"
+      }
+    },
+    {
+      "name": "Business (Sauder Business School)",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94a4ba389c4d719ee5b"
+      }
+    },
+    {
+      "name": "Arts",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94b4ba389c4d719ee61"
+      }
+    },
+    {
+      "name": "VP Finance and Operations",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94b4ba389c4d719ee64"
+      }
+    },
+    {
+      "name": "Education",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94c4ba389c4d719ee67"
+      }
+    },
+    {
+      "name": "President",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94c4ba389c4d719ee6a"
+      }
+    },
+    {
+      "name": "Indigenous",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94c4ba389c4d719ee6d"
+      }
+    },
+    {
+      "name": "VP Students",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94c4ba389c4d719ee70"
+      }
+    },
+    {
+      "name": "Land and Food Systems",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94d4ba389c4d719ee73"
+      }
+    },
+    {
+      "name": "VP Research and Innovation",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94d4ba389c4d719ee79"
+      }
+    },
+    {
+      "name": "VP Development and Alumni",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94e4ba389c4d719ee7c"
+      }
+    },
+    {
+      "name": "VP Academic/Provost",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94e4ba389c4d719ee82"
+      }
+    },
+    {
+      "name": "Pharmaceutical Sciences",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94f4ba389c4d719ee85"
+      }
+    },
+    {
+      "name": "Applied Science",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c94f4ba389c4d719ee8b"
+      }
+    },
+    {
+      "name": "Legal Counsel",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c9504ba389c4d719ee8e"
+      }
+    },
+    {
+      "name": "Nursing",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c9504ba389c4d719ee91"
+      }
+    },
+    {
+      "name": "Forestry",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c9504ba389c4d719ee94"
+      }
+    },
+    {
+      "name": "Board",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c9514ba389c4d719ee97"
+      }
+    },
+    {
+      "name": "Senate",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c9514ba389c4d719ee9a"
+      }
+    },
+    {
+      "name": "UBCO Management",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c9514ba389c4d719ee9d"
+      }
+    },
+    {
+      "name": "Dentistry",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c9524ba389c4d719eea0"
+      }
+    },
+    {
+      "name": "Law",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c9524ba389c4d719eea3"
+      }
+    },
+    {
+      "name": "Science",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c9524ba389c4d719eea6"
+      }
+    },
+    {
+      "name": "UBCO Campus Wide",
+      "depts": [],
+      "_id": {
+        "$oid": "6368c9534ba389c4d719eea9"
+      }
+    },
+    {
+      "name": "UBCO Food Services",
+      "_id": {
+        "$oid": "6368cb474ba389c4d719fd59"
+      },
+      "depts": []
+    },
+    {
+      "name": "UBCO Engineering",
+      "_id": {
+        "$oid": "6368cb854ba389c4d71a0295"
+      },
+      "depts": []
+    },
+    {
+      "name": "UBCO Health and Social Development",
+      "_id": {
+        "$oid": "6368cb874ba389c4d71a02b9"
+      },
+      "depts": []
+    },
+    {
+      "name": "UBCO Arts and Social Sciences",
+      "_id": {
+        "$oid": "6368cb9d4ba389c4d71a04ab"
+      },
+      "depts": []
+    },
+    {
+      "name": "UBCO Science",
+      "_id": {
+        "$oid": "6368cbe24ba389c4d71a0a2e"
+      },
+      "depts": []
+    },
+    {
+      "name": "Graduate Studies",
+      "_id": {
+        "$oid": "6368cc0d4ba389c4d71a0d75"
+      },
+      "depts": []
+    },
+    {
+      "name": "Ombudsperson",
+      "_id": {
+        "$oid": "6368d38e019b534ee88830d3"
+      },
+      "depts": []
+    },
+    {
+      "name": "UBCO Creative and Critical Studies",
+      "_id": {
+        "$oid": "6368d44d019b534ee8884504"
+      },
+      "depts": []
+    },
+    {
+      "name": "St Johns College",
+      "_id": {
+        "$oid": "6368d48b019b534ee8884b16"
+      },
+      "depts": []
+    },
+    {
+      "name": "UBCO Southern Medical Program",
+      "_id": {
+        "$oid": "6368d4e7019b534ee888540f"
+      },
+      "depts": []
+    },
+    {
+      "name": "UBCO Education",
+      "_id": {
+        "$oid": "6368d4f2019b534ee888553d"
+      },
+      "depts": []
+    },
+    {
+      "name": "UBCO Psychology",
+      "_id": {
+        "$oid": "6368d5a3019b534ee8886522"
+      },
+      "depts": []
+    },
+    {
+      "name": "VP International",
+      "_id": {
+        "$oid": "6368d7f9019b534ee8886c7e"
+      },
+      "depts": []
+    },
+    {
+      "name": "SVPRO",
+      "_id": {
+        "$oid": "6368dd05019b534ee888adb5"
+      },
+      "depts": []
+    },
+    {
+      "name": "UBCO Provost",
+      "_id": {
+        "$oid": "6368dd7d019b534ee888b5fb"
+      },
+      "depts": []
+    },
+    {
+      "name": "IT",
+      "_id": {
+        "$oid": "6368de6a019b534ee888c580"
+      },
+      "depts": []
+    },
+    {
+      "name": "Medicine",
+      "_id": {
+        "$oid": "6368e28e019b534ee888d939"
+      },
+      "depts": []
+    },
+    {
+      "name": "AMS",
+      "_id": {
+        "$oid": "6368e30d019b534ee888e151"
+      },
+      "depts": []
+    },
+    {
+      "name": "UBCO",
+      "_id": {
+        "$oid": "6368e336019b534ee888e3d2"
+      },
+      "depts": []
+    },
+    {
+      "name": "VP External",
+      "_id": {
+        "$oid": "6368e3e8019b534ee888ee9e"
+      },
+      "depts": []
+    },
+    {
+      "name": "Institute",
+      "_id": {
+        "$oid": "6368f9d5019b534ee88974f7"
+      },
+      "depts": []
+    },
+    {
+      "name": "Population and Public Health",
+      "_id": {
+        "$oid": "6369454e019b534ee889d724"
+      },
+      "depts": []
+    },
+    {
+      "name": "Equity & Inclusion",
+      "_id": {
+        "$oid": "6369457a019b534ee889d7b6"
+      },
+      "depts": []
+    },
+    {
+      "name": "Human Resources",
+      "depts": [],
+      "_id": {
+        "$oid": "637328d3fef8748c9fd5c2ef"
+      }
+    }
+  ],
+  "campaigns": [
+    {
+      "_id": {
+        "$oid": "614f713c92086e06145bc519"
+      },
+      "name": "Equity & Anti-Racism",
+      "backgroundColor": "#d0bff0"
+    },
+    {
+      "_id": {
+        "$oid": "614f715392086e06145bc51c"
+      },
+      "name": "Reconciliation & Indigenous Peoples",
+      "backgroundColor": "#db9494"
+    },
+    {
+      "_id": {
+        "$oid": "614f716192086e06145bc51f"
+      },
+      "name": "Health Innovation and Well-being",
+      "backgroundColor": "#e4ddad"
+    },
+    {
+      "_id": {
+        "$oid": "614f717092086e06145bc522"
+      },
+      "name": "Teaching, Learning & Research",
+      "backgroundColor": "#879bcc"
+    },
+    {
+      "_id": {
+        "$oid": "614f717e92086e06145bc525"
+      },
+      "name": "Sustainability and Climate Action",
+      "backgroundColor": "#c4f6bf"
+    },
+    {
+      "name": "UA - Community and Belonging ",
+      "archived": false,
+      "_id": {
+        "$oid": "64665dc6a3bf419c00b11d10"
+      },
+      "backgroundColor": "#e7a9e3"
+    },
+    {
+      "name": "UA - Institutional Statements ",
+      "backgroundColor": "#80c0b7",
+      "archived": false,
+      "_id": {
+        "$oid": "649e0b1606171ec442cfa1d7"
+      }
+    },
+    {
+      "name": "Test Campaign for May 2024",
+      "backgroundColor": "#1e00ff",
+      "archived": true,
+      "_id": {
+        "$oid": "663913352f85c785f6b78f60"
+      }
+    }
+  ],
+  "complexity": [
+    {
+      "_id": 1,
+      "name": "1 - Very simple task/issue"
+    },
+    {
+      "_id": 2,
+      "name": "2 - Ordinary task/issue"
+    },
+    {
+      "_id": 3,
+      "name": "3 - Moderately complicated task/issue"
+    },
+    {
+      "_id": 4,
+      "name": "4 - Complex project/issue"
+    },
+    {
+      "_id": 5,
+      "name": "5 - Extremely complex project/issue"
+    }
+  ],
+  "depts": [
+    {
+      "_id": {
+        "$oid": "6368cb404ba389c4d719fcb4"
+      },
+      "name": "EOAS",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cb4a4ba389c4d719fd93"
+      },
+      "name": "Sustainability",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cb554ba389c4d719fe90"
+      },
+      "name": "SCARP",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cb5d4ba389c4d719ff40"
+      },
+      "name": "Athletics",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cb5e4ba389c4d719ff56"
+      },
+      "name": "Nursing",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cb724ba389c4d71a00fb"
+      },
+      "name": "Computer Science",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cb744ba389c4d71a012a"
+      },
+      "name": "Population and Public Health",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cb784ba389c4d71a0177"
+      },
+      "name": "PHAS",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cb884ba389c4d71a02d2"
+      },
+      "name": "UBC Wine Research centre",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cb8c4ba389c4d71a032a"
+      },
+      "name": "Botany",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cb8f4ba389c4d71a036c"
+      },
+      "name": "Finance",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cbad4ba389c4d71a05ed"
+      },
+      "name": "IOF",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cbb44ba389c4d71a0687"
+      },
+      "name": "Equity and Inclusion",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cbb74ba389c4d71a06c9"
+      },
+      "name": "Chemistry",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cbbf4ba389c4d71a0779"
+      },
+      "name": "Safety and Risk Services",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cbe04ba389c4d71a0a02"
+      },
+      "name": "Engineering",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cbe84ba389c4d71a0a94"
+      },
+      "name": "Campus and Community Planning",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cc3b4ba389c4d71a10dd"
+      },
+      "name": "IRES",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cd634ba389c4d71a1574"
+      },
+      "name": "Political Science",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cdc24ba389c4d71a1824"
+      },
+      "name": "Zoology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368cddd4ba389c4d71a1a1e"
+      },
+      "name": "Brand and Marketing",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d0fc019b534ee887f20b"
+      },
+      "name": "Parking Services",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d12d019b534ee887f3f3"
+      },
+      "name": "Kinesiology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d13a019b534ee887f47c"
+      },
+      "name": "SALA",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d1a9019b534ee887fc85"
+      },
+      "name": "SPPH",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d1ad019b534ee887fce8"
+      },
+      "name": "Archival and Information Studies",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d203019b534ee88802f1"
+      },
+      "name": "Microbiology & Immunology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d23b019b534ee88808e5"
+      },
+      "name": "Enrolment Services",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d29d019b534ee888151d"
+      },
+      "name": "History",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d2e7019b534ee8881e2c"
+      },
+      "name": "Investigations Office",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d30f019b534ee88822f3"
+      },
+      "name": "Vancouver School of Economics",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d346019b534ee88828d5"
+      },
+      "name": "Journalism",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d3dd019b534ee8883970"
+      },
+      "name": "Extended Learning",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d4aa019b534ee8884e37"
+      },
+      "name": "Information Technology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d4d6019b534ee8885267"
+      },
+      "name": "Sociology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d5a3019b534ee888650c"
+      },
+      "name": "Faculty Relations",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368d878019b534ee8887061"
+      },
+      "name": "Economics",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368daa3019b534ee8888250"
+      },
+      "name": "Campus Security",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368dab7019b534ee8888379"
+      },
+      "name": "Mathematics",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368dc15019b534ee8889d23"
+      },
+      "name": "MSL",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368dd46019b534ee888b246"
+      },
+      "name": "Integrated Renewal Plan (IRP)",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368dd9f019b534ee888b850"
+      },
+      "name": "Psychology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368e1a8019b534ee888ca8f"
+      },
+      "name": "SPPGA",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368e1f3019b534ee888cf3c"
+      },
+      "name": "UBC Library",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368e20f019b534ee888d136"
+      },
+      "name": "Asian Studies",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368e2af019b534ee888db57"
+      },
+      "name": "Building Operations",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368e2d9019b534ee888de06"
+      },
+      "name": "Statistics",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368e344019b534ee888e4c7"
+      },
+      "name": "Ceremonies and Events",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368e377019b534ee888e7df"
+      },
+      "name": "Linguistics",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368e3d2019b534ee888ed3e"
+      },
+      "name": "CTLT",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368e483019b534ee888f53d"
+      },
+      "name": "Government Relations",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368eccc019b534ee8892b30"
+      },
+      "name": "Belkin Gallery",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368ef55019b534ee88938e5"
+      },
+      "name": "Learning Exchange",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368f440019b534ee88955b8"
+      },
+      "name": "Environmental Health",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368f4b7019b534ee8895815"
+      },
+      "name": "International Student Initiative",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6368f9d5019b534ee88974fa"
+      },
+      "name": "Liu Institute",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63692a91989f3bb8a17d51d3"
+      },
+      "name": "Geography",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63696e9479a09368fa4a7aa3"
+      },
+      "name": "Student Housing and Community Services",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "636d2e520db6cef29411c3f1"
+      },
+      "name": "Obstetrics & Gynaecology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "636d3f5f0db6cef29411c5e9"
+      },
+      "name": "UBC Hospital Clinic for Alzheimer Disease and Related Disorders",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "636d40880db6cef29411c6b7"
+      },
+      "name": "Educational and Counselling Psychology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "636d50ef024607b54efb26cd"
+      },
+      "name": "Pediatrics",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "637287c1a6a6439936694ce0"
+      },
+      "name": "Psychiatry",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "637bc2d597e2351c99096853"
+      },
+      "name": "Music",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "637d1e9797e2351c99097d5a"
+      },
+      "name": "Pathology and Labs",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "638110833114de47aa6cdc33"
+      },
+      "name": "Civil Engineering",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "638516435c2db181003a479e"
+      },
+      "name": "IRSHDC",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63866f5b54be5189d91a6694"
+      },
+      "name": "Anthropology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63890d77778f8e1f64e02692"
+      },
+      "name": "Beaty Museum",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "638e5069778f8e1f64e0411d"
+      },
+      "name": "Radiology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "638e6ef01dbb9ba4775cfc3b"
+      },
+      "name": "Emergency Medicine",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "638fb3408ee0e2eb4a2bffdd"
+      },
+      "name": "Medicine",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "638fb969ded7fcb5165853c9"
+      },
+      "name": "IMANT",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "639208cfc9b47aa88b7a8ba1"
+      },
+      "name": "Infrastructure Development",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "639379fac9b47aa88b7a95b1"
+      },
+      "name": "Museum of Anthropology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63950c4ac9b47aa88b7aa107"
+      },
+      "name": "dean's office",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63979431335e0a8ba15e7111"
+      },
+      "name": "Theatre and Film",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "639b6c49f0f41e884d2caa29"
+      },
+      "name": "UBCO Engineering",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63a0d94829565c3ee904c344"
+      },
+      "name": "Institute for the Oceans and Fisheries",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63bf522e63f09a44ecf412e6"
+      },
+      "name": "Health and Exercise Sciences",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63c08e9d9054c00e6c989ad6"
+      },
+      "name": "biology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63c1b40d9054c00e6c98a536"
+      },
+      "name": "SBQMI",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63c577c99054c00e6c98ad24"
+      },
+      "name": "Communications",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63c71f332a5da5829e7976c1"
+      },
+      "name": "SBME",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63ced5934ced5100ddd11e13"
+      },
+      "name": "School of Music",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63ceeb2ee70f3e738d27edf7"
+      },
+      "name": "Dermatology and Skin Science",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63d41946dad454fae4809845"
+      },
+      "name": "Community Engagement",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63d4283adad454fae4809962"
+      },
+      "name": "First Nations Longhouse",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63d8037a73bf4a93d4a35413"
+      },
+      "name": "Physical Therapy",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63dc191c994eacf2e46256f1"
+      },
+      "name": "Registrar",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63dc27a99b9f6fc5dd28b782"
+      },
+      "name": "School of Biomedical Engineering",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63e158529b9f6fc5dd28cfba"
+      },
+      "name": "Family Practice",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63e56f5fbe6d4ce5b632c3a1"
+      },
+      "name": "Public Humanities Hub",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63ebbd4a270a50b3330b3811"
+      },
+      "name": "Language and Literacy Education",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63ec281c270a50b3330b3f5b"
+      },
+      "name": "School of Health and Exercise Sciences",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63ed25ca385aa057c57235e4"
+      },
+      "name": "Philosophy",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63f149ffc81b8fecec4a4b00"
+      },
+      "name": "Horticulture Training Program",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63f500bac81b8fecec4a4c6e"
+      },
+      "name": "Ophthalmology",
+      "__v": 0,
+      "archived": false
+    },
+    {
+      "_id": {
+        "$oid": "63f5655abc8df55501de77ba"
+      },
+      "name": "internal communications",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63f926ff1b581df1c660b177"
+      },
+      "name": "SJWAM",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "63fd2bf01b581df1c660c00b"
+      },
+      "name": "UBC Robson Square",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64013770e24bd0c015108e06"
+      },
+      "name": "CENES",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64026599e2443e58d5589e61"
+      },
+      "name": "School of Social Work",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64090bb23de1c3351fdd4491"
+      },
+      "name": "MarCom",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64090bc33de1c3351fdd449c"
+      },
+      "name": "Exec Ed",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64092547f4727af200b52273"
+      },
+      "name": "English Language and Literatures",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "640ba4ed87987035e8b2cf10"
+      },
+      "name": "RHL Graduate School",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "640f97456b61a390eb5f6f5d"
+      },
+      "name": "Pathology and Laboratory Medicine",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "640fa79e6b61a390eb5f716d"
+      },
+      "name": "Pathology & Laboratory Medicine",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "640fa9506b61a390eb5f728f"
+      },
+      "name": "Mechanical Engineering",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6419e842debc0313fdeb7e64"
+      },
+      "name": "University-Industry Liaison Office",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64230e58acbe13a25603c986"
+      },
+      "name": "PGME",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6425c5a9647d0b99d647218a"
+      },
+      "name": "Irving K. Barber Faculty of Arts and Social Sciences",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6425c5b3647d0b99d6472193"
+      },
+      "name": "Irving K. Barber Faculty of Arts and Social Sciencesr",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "642c6ba272a3dc26ae13d507"
+      },
+      "name": "Food, Nutrition and Health",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6435c8848239da84b7c49467"
+      },
+      "name": "Early Childhood Education",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64401a8ea2e0c10074051e6a"
+      },
+      "name": "OISI",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64402bdead7afb40c91f3d27"
+      },
+      "name": "Economics, Philosophy and Political Science",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6446e3d944a4cf21381ce2b1"
+      },
+      "name": "School of Public Policy",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6449619567c18a23f4114089"
+      },
+      "name": "Applied Animal Biology",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "645c1ee492be35d39d30ef7b"
+      },
+      "name": "Institute for Critical Indigenous Studies",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "645d2c8692be35d39d30f381"
+      },
+      "name": "Michael Smith Labs",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "647111c2df6e9d1a11cc1d04"
+      },
+      "name": "Anesthesiology",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6478c87a078e28f9225b2591"
+      },
+      "name": "School of Nursing",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64790373078e28f9225b2a2f"
+      },
+      "name": "Neurology",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64790873078e28f9225b2b40"
+      },
+      "name": "Centre for Gender and Sexual Health Equity",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "647f62ccbb84a679f18283fb"
+      },
+      "name": "Djavad Mowafaghian Centre for Brain Health",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6480b9d4bb84a679f1828f25"
+      },
+      "name": "School of Kinesiology",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64824b6c4e9559b6981a8a9b"
+      },
+      "name": "ECE",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "648b70a75ad51e3de8c8c434"
+      },
+      "name": "UBCO Science",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "649240ca1ab9f52690f331a9"
+      },
+      "name": "Endocrinology",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6492479b1ab9f52690f332a3"
+      },
+      "name": "Curriculum and Pedagogy",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "649b623506171ec442cf7cdc"
+      },
+      "name": "Nephrology",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64a5e3a206171ec442cfb9e8"
+      },
+      "name": "IRSI",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64dfba8d06f0a3d0e02a4d9a"
+      },
+      "name": "French, Hispanic and Italian Studies",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64ecf79e686e84c20b3ffecb"
+      },
+      "name": "MOA",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64ef8216686e84c20b59fd2f"
+      },
+      "name": "Centre for Accessibility",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64f0dcf8686e84c20b69e16d"
+      },
+      "name": "Counselling Services",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64f8af5a36a859f712db8d87"
+      },
+      "name": "PAIR",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "65032e85d0672533c9767c59"
+      },
+      "name": "BCCSU",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6509f936593022d2e74352da"
+      },
+      "name": "SVPRO",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "650e200c593022d2e75f8ed8"
+      },
+      "name": "Keevil Institute of Mining Engineering",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6511ba816dfca6b938ad455e"
+      },
+      "name": "Payroll",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "65134aa26dfca6b938bd1fbe"
+      },
+      "name": "AMNES",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "65203e9e96bae31f3ead04dc"
+      },
+      "name": "Opthalmology",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "653fcaa06c9a4ec4213d9025"
+      },
+      "name": "Facilities",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "653ff84201402efafe83e908"
+      },
+      "name": "Cellular and Physiological Sciences",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "655e33a9ebaf3501a6445912"
+      },
+      "name": "Orthopaedics",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "65710615fadea25e1cf36937"
+      },
+      "name": "Language Sciences",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6578a2999f7e088f0b43bcb9"
+      },
+      "name": "Career Centre",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "659f1686528dc893d29a5ae2"
+      },
+      "name": "University Relations",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "65a856fbe8b276dead197f8a"
+      },
+      "name": "Surgery",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "65b834cc3f0e5e4ac5cd967e"
+      },
+      "name": "Ancient Mediterrannean and Near Eastern Studies",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "65bbd7ac3f0e5e4ac5d27617"
+      },
+      "name": "UBC Sex Store",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "65dcdfdff0d9f77f202d7f7f"
+      },
+      "name": "OSOT",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "65de3aa5f0d9f77f202ff3e6"
+      },
+      "name": "Internal Medicine",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "65fe0715fae65deb68899645"
+      },
+      "name": "International Student Advising",
+      "archived": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "663291f5870f3d86795704a9"
+      },
+      "name": "All",
+      "archived": false,
+      "__v": 0
+    }
+  ],
+  "status": [
+        {
+          "_id": {
+            "$oid": "61687ecaec7f571dae3a71df"
+          },
+          "name": "In Progress"
+        },
+        {
+          "_id": {
+            "$oid": "61687ecaec7f571dae3a71e0"
+          },
+          "name": "Completed"
+        },
+        {
+          "_id": {
+            "$oid": "6168816f926dea1e4203d3f7"
+          },
+          "name": "Participation Ribbon"
+        },
+        {
+          "_id": {
+            "$oid": "6168816f926dea1e4203d3f8"
+          },
+          "name": "Cancelled"
+        }
+      ]
+}

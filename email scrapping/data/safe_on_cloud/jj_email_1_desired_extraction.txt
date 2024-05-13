@@ -1,0 +1,27 @@
+*The output JSON should make something like this:* 
+
+DATE: [date forwarded to the scrapper]
+
+SERVICE: Using NLP to read oncologist consultation documents, but this time to predict which patients will see a psychiatrist or counsellor.
+
+TYPE: Media Release
+
+UNIT: Medicine
+
+DEPARTMENT: ""
+
+Lead/Expert: John-Jose Nunez
+
+CAMPAIGN: Teaching, Learning and Research
+
+COMPLEXITY: 3 (always 3 for media releases and we can create consistency for other Types based on previous classifications) 
+
+DIVERSITY ""
+
+TEAM MEMBER: "Kurt Heinrich" (suggest it tags to whover forwards the email - so if I forward it, it tags me in)
+
+KEY MESSAGING: ""
+
+BACKGROUND RESPONSE: Just include the whole email 
+
+COMMS MATERIALS: [upload file attached with name the same as the name of the document, no description] OR adds link if there are embedded hyperlinks in the email. 

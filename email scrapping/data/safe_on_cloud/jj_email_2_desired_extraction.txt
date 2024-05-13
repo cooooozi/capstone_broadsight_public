@@ -1,0 +1,25 @@
+*The output JSON should make something like this:* 
+
+DATE: [date forwarded to the scrapper]
+
+SERVICE: Predicting the survival of cancer patients using a branch of artificial intelligence called natural language processing, t
+
+TYPE: Media Release
+
+UNIT: Medicine
+
+DEPARTMENT: ""
+
+Lead/Expert: John-Jose Nunez
+
+CAMPAIGN: Teaching, Learning and Research
+
+COMPLEXITY: 3 (always 3 for media releases and we can create consistency for other Types based on previous classifications) 
+
+DIVERSITY ""
+
+TEAM MEMBER: "Kurt Heinrich" & "Andrea" (suggest it tags to whover forwards the email - so if I forward it, it tags me in) If andrea is CCed it could add her too, but if that's too complicated OR if she doesn't have a tracker seat which seems likely that it will often include those who don't just keep it from primary person who emails. 
+
+KEY MESSAGING: ""
+
+BACKGROUND RESPONSE: Just include the whole email 
